@@ -1,0 +1,693 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+ .mainbody{ 
+     background-image: url('../webpic.jpg'); 
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    
+  }
+
+button{
+    color: #0f0f0f;
+    background-color: #0f0f0f;
+}
+
+.text{
+    display: flex;
+    flex-flow:column ;
+    font-size: 10rem;
+    position: fixed; 
+    top:5rem; right:10rem;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    animation-name: exampl;
+    animation-duration: 1s;
+}
+
+@keyframes exampl {
+    from{font-size: 0rem;}
+    to{font-size: 10rem;}
+    
+}
+.hello{
+    color:#fff;
+}
+
+
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+
+@media screen and (min-width:1280px){
+
+.hello:hover{
+    content:"hello";
+    color: #0f0f0f;
+} 
+
+.hello:hover:after{
+    content:"About";
+    display: flex;
+    flex-flow:column ;
+    font-size: 10rem;
+    position: fixed;
+    top:5rem; right:10rem;
+    color: #fff;
+    background-color: #0f0f0f;
+}
+
+.work:hover{
+    content:"I Am";
+    color: #0f0f0f;
+} 
+
+.work:hover:after{
+    content:"Work";
+    display: flex;
+    flex-flow:column ;
+    font-size: 10rem;
+    position: fixed;
+    top:17rem; right:10rem; 
+    color: #fff;
+}
+
+.contact:hover{
+    content:"Anmol";
+    color: #0f0f0f;
+} 
+
+.contact:hover:after{
+    content:"Contact";
+    display: flex;
+    flex-flow:column ;
+    font-size: 10rem;
+    position: fixed;
+    top:28rem; right:4rem;
+    color: #fff;
+}
+}
+
+
+/* CSS FOR ABOUT PAGE */
+
+ 
+ .home{
+    font-size: 1.5rem;
+    color:white;
+    display:flex;
+    position: fixed;
+    top:2rem; right:4rem;
+    z-index: 100;
+    background-color: #0f0f0f;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+.home:hover{
+    content: "anmol";
+    color:#0f0f0f;
+}
+
+.home:hover:after{
+    content:"HOME";
+    display:flex;
+    font-size: 1.5rem;
+    position: fixed;
+    top:2rem; right:4rem;
+    color:#fff;
+    z-index: 100;
+
+} 
+
+header{
+    background-color: black;
+
+} 
+
+
+body{
+    background-color: #0f0f0f;
+
+}
+
+.subheada{
+    text-align: center;
+    font-size: 5rem;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10rem;
+    
+    
+}
+
+  
+.inabout p{
+    display: block;
+    font-size: 1.5rem;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 5rem;
+    
+}
+
+.inabout{
+    padding-bottom: 5rem;
+}
+
+
+.mainabout{  
+    
+    font-size: 6rem;
+    font-weight: bold;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:20rem;
+    margin-bottom:5rem;
+    margin-left: 10rem;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {font-size:0rem;}
+    to {font-size: 6rem;}
+  }
+
+ 
+
+/* CSS FOR CONTACT */
+
+
+
+.homec{
+    font-size: 1.5rem;
+    color:white;
+    display:flex;
+    position: fixed;
+    top:2rem; right:4rem;
+    color:#fff;
+    z-index: 100;
+    background-color:#0f0f0f;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.homec:hover{
+    content: "anmol";
+    color:#0f0f0f;
+}
+
+.homec:hover:after{
+    content:"HOME";
+    display:flex;
+    font-size: 1.5rem;
+    position: fixed;
+    top:2rem; right:4rem;
+    color:#fff;
+    z-index: 100;
+    background-color: #0f0f0f;
+} 
+
+.maincontact{
+    font-size: 6rem;
+    font-weight: bold;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:20rem;
+    margin-bottom:5rem;
+    margin-left: 10rem;
+    animation-name: example;
+    animation-duration: 1s   ;
+}
+
+
+.incontact p{
+    display: block;
+    font-size: 1.5rem;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 5rem;
+}
+
+.links{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    color:red;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.subheadc{
+        text-align: center;
+        font-size: 5rem;
+        color: red;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top: 15rem;
+}
+
+.resume{
+color:#fff;    
+}
+
+
+
+
+/* CSS FOR WORK */
+
+
+
+.homew{
+    font-size: 1.5rem;
+    color:white;
+    display:flex;
+    position: fixed;
+    top:2rem; right:4rem;
+    color:#fff;
+    z-index: 100;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.homew:hover{
+    content: "anmol";
+    color:#0f0f0f;
+}
+
+.homew:hover:after{
+    content:"HOME";
+    display:flex;
+    font-size: 1.5rem;
+    position: fixed;
+    top:2rem; right:4rem;
+    color:#fff;
+    z-index: 100;
+    background-color: #0f0f0f;
+
+} 
+
+
+.mainwork{
+    font-size: 6rem;
+    font-weight: bold;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:20rem;
+    margin-bottom:20rem;
+    margin-left: 10rem;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+.inwork p{
+      
+        font-size: 5rem;
+        color: red;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 4rem;
+        margin-left: 5rem;
+        margin-bottom: 4rem;
+
+}
+
+.inwork li{ 
+    display: block;
+    font-size: 1.5rem;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.inwork li::before{
+    content: "\2022\ ";
+}
+
+.tech{
+    display: flex;
+    padding:0,0;
+    margin:0,0;
+}
+
+.inwork{
+    padding-bottom: 7rem;
+}
+
+dt{
+    font-size: 2.5rem;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+}
+
+dd{
+    display: block;
+    font-size: 1.5rem;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+
+/* CSS FOR RESPONSIVE */
+
+@media screen and (max-width:950px)
+{
+    
+.text{
+    display: flex;
+    flex-flow:column ;
+    font-size: 6rem;
+    top:8rem; left:8rem; bottom:2rem;
+    animation-name: exampl;
+    animation-duration: 1s;
+    
+}
+
+@keyframes exampl {
+    from{font-size: 0rem;}
+    to{font-size: 6rem;}
+}
+
+.mainbody{ 
+     background-image: url('../webpic.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+ 
+
+  button{
+    font-size: 30px;
+    text-align: center;
+    bottom: 2rem ;
+    left:8rem;
+    background-color: transparent;
+    position: absolute;
+    color:white;
+    cursor: pointer;
+    justify-content: center;
+    
+ }
+
+
+.hello:hover{ 
+   
+  
+} 
+
+.hello:hover:after{
+
+   
+}
+
+.work:hover{
+   
+} 
+
+.work:hover:after{
+
+}
+
+.contact:hover{
+ 
+} 
+
+.contact:hover:after{
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mob{
+    color: #ffff;
+    display: block;
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 3rem;
+    left: 5rem;
+       
+}
+
+.tap{
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+ 
+#two{
+  
+   zoom: 0.9;
+   padding-bottom: 0;
+   margin-bottom: 0;
+
+}
+
+
+.mainabout{  
+    
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top:3rem;
+    margin-bottom:5rem;
+    margin-left: 4rem;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {font-size:0rem;}
+    to {font-size: 4rem;}
+  }
+
+  .inabout{
+    padding-bottom: 2rem;
+}
+
+ html{
+    zoom: .5;
+
+} 
+
+
+.home{
+    font-size: 2rem;
+   
+    top:2rem; right:4rem;
+} 
+.subheada{
+    font-size: 3rem;
+    padding-top: 1;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+  
+.inabout p{
+   
+    font-size: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2.5rem;
+}
+
+.maincontact{
+    font-size: 4rem;
+    font-weight: bold;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:6rem;
+    margin-bottom:5rem;
+    margin-left: 4rem;   
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {font-size:0rem;}
+    to {font-size: 4rem;}
+}
+
+.incontact p{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 6rem;
+    font-size: 2rem;
+}
+
+.links{ 
+    font-size: 2.3rem;
+}
+
+
+
+.homec{
+    font-size: 2rem;
+    top:2rem; right:4rem;
+}
+
+
+.subheadc{
+    padding-top: 6rem;
+}
+
+
+.mainwork{
+    font-size: 4rem;
+    margin-top:6rem;
+    margin-bottom:5rem;
+    margin-left: 4rem;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {font-size:0rem;}
+    to {font-size: 4rem;}
+}
+
+.inwork p{
+      
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+.homew{
+    font-size: 2rem;
+    top:2rem; right:4rem;
+}
+
+
+.inwork li{ 
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+
+dd{
+    display: block;
+    font-size: 1.5rem;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.hello p{
+    animation-name: chng;
+    animation-duration: 4s;
+}
+
+@keyframes chng {
+    from{content:"Hello.";}
+    to{content: "About";}
+    
+}
+
+}
+
+@media only screen and (min-width:951px) and (max-width:1280px)
+{
+    .text{
+        display: flex;
+        flex-flow:column ;
+        font-size: 4rem;
+        top:6rem; right:2rem; bottom:2rem;
+        animation-name: fuvk;
+        animation-duration: 1s;
+        
+    }
+    
+    @keyframes fuvk {
+        from{font-size: 0rem;}
+        to{font-size: 4rem;}
+    }
+
+
+}
+
+ @media  only screen and (min-width:200px) and (max-width:580px)
+{
+    .text{
+        display: flex;
+        flex-flow:column ;
+        font-size: 6rem;
+        animation-name: funk;
+        animation-duration: 1s;
+        top:3rem;
+        left:2rem;
+        margin-top: 2rem;
+        
+    }
+    
+    @keyframes funk {
+        from{font-size: 0rem;}
+        to{font-size: 6rem;}
+    }
+    .mainbody{ 
+        background-image: url('../webpic1.jpg');
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        
+      }
+
+}
